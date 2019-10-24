@@ -35,14 +35,14 @@ Lifting CRMgeo/RDF to the OWL level, introduced namespace "crmgeo":
    constraints, skos labels, etc.
 -->
 
-<rdf:RDF xmlns="http://objekte-im-netz.fau.de/italy15/ontology/crmgeo/"
-   xml:base="http://objekte-im-netz.fau.de/italy15/ontology/crmgeo/"
+<rdf:RDF xmlns="http://erlangen-crm.org/ecrmgeo/"
+   xml:base="http://erlangen-crm.org/ecrmgeo/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:ecrm="http://erlangen-crm.org/170309/"
-   xmlns:crmgeo="http://objekte-im-netz.fau.de/italy15/ontology/crmgeo/"
+   xmlns:crmgeo="http://erlangen-crm.org/ecrmgeo/"
    xml:lang="en">
 <!--
          xml:base="http://www.ics.forth.gr/isl/crmgeo/" ersetzt durch
