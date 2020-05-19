@@ -53,7 +53,7 @@ Lifting CRMgeo/RDF to the OWL level, introduced namespace "crmgeo":
 <owl:Ontology rdf:about="">
    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
    >version 1.4a</owl:versionInfo>
-   <rdfs:comment xml:lang="en">CRMgeo 1.4 Encoded in OWL, modified GG, adding OWL-constructs
+   <rdfs:comment xml:lang="en">CRMgeo 1.4 Encoded in OWL, modified GG, adding OWL-constructs. 2020-02-28
    </rdfs:comment>
    <!--
    <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/protege"/>
@@ -138,19 +138,19 @@ Lifting CRMgeo/RDF to the OWL level, introduced namespace "crmgeo":
   <rdfs:subClassOf rdf:resource="S4_Observation"/>
 </owl:Class>
 
+
 <owl:Class rdf:about="http://erlangen-crm.org/170309/E4_Period">
+  <rdfs:subClassOf rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
 <!-- GG
   <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMgeo/SP1_Phenomenal_Spacetime_Volume"/>
 -->
-  <rdfs:subClassOf rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
 </owl:Class>
 
+<!-- GG the following causes INCOMPATIBILITY
 <owl:Class rdf:about="http://erlangen-crm.org/170309/E18_Physical_Thing">
-<!-- GG
-  <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMgeo/SP1_Phenomenal_Spacetime_Volume"/>
--->
   <rdfs:subClassOf rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
 </owl:Class>
+-->
 
 <!-- GG redundant, because already defined in ECRM  - replaces previous "SP8_Spacetime_Volume"
   <rdfs:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume">
